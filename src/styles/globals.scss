@@ -1,0 +1,85 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 0px;
+    background: whitesmoke;
+  }
+  ::-webkit-scrollbar-track {
+   &.dark-mode{
+    background: #21201d; 
+  }
+  &.light-mode{
+    background: #302853; 
+  }
+}
+
+
+
+ ::-webkit-scrollbar-thumb {
+     background: #f1a45b; 
+   &.light-mode{
+     background: #170a4e; 
+   }
+ }
+
+ ::-webkit-scrollbar-thumb:hover {
+    &.dark-mode{
+     background: #f39339; 
+   }
+   &.light-mode{
+     background: #170a4e; 
+   }
+ }
+
+ 
+
+
+
+body{
+    font-size: calc(10px + 2vmin);
+    &.dark-mode{
+        $highlight-color:#f39339;
+        $secondary-color: #895a25;
+        $section-color: #5e370c;
+        $text-color:#ffffff;
+        $bg-color:#272622;
+        $layout-color:#21201d;
+        $myJourneyColor:#353430;
+        $myJourneyHighlight:#272622;
+        $logo:url('../Assets/logo.webp');
+        $footerIconColor: #f39339;
+        $project-bg-color:transparent;
+        $navbarToggler:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(243, 147, 57)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");      
+        $avatar:url("../Assets/Avatar.webp");
+        $card-button-color:#f39339;
+        $sectionIcon1:url("../Assets/section1-dark.webp");
+        $sectionIcon2:url("../Assets/section2-dark.webp");
+        $sectionIcon3:url("../Assets/section3-dark.webp");
+        @import "./theme";
+    }
+    &.light-mode{  
+        $highlight-color:#170a4e;
+        $secondary-color:#5b566d;
+        $section-color:#18171d;
+        $text-color:#000000;
+        $bg-color:#fafafaea;
+        $layout-color:#111b4b;
+        $myJourneyColor:#2d334e;
+        $myJourneyHighlight:#0c1331;
+        $logo:url('../Assets/logo-light.webp');
+        $footerIconColor: white;
+        $project-bg-color:#28166F;
+        $navbarToggler:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(23, 10, 78)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        $avatar:url("../Assets/Avatar-light.webp");
+        $card-button-color:white;
+        $sectionIcon1:url("../Assets/section1-light.webp");
+        $sectionIcon2:url("../Assets/section2-light.webp");
+        $sectionIcon3:url("../Assets/section3-light.webp");
+        @import "./theme";
+    }
+}
+

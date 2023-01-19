@@ -1,3 +1,23 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "airbnb",
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "import/extensions": "off",
+    "react/no-array-index-key": "off",
+    "no-undef": "off",
+    "max-len": "off",
+    "react/prop-types": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "react/button-has-type": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/react-in-jsx-scope": "off",
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "off",
+    "no-unused-vars": "off",
+    "import/no-extraneous-dependencies": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  }
 }
