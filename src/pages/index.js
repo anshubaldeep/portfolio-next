@@ -25,6 +25,7 @@ export default function Home() {
           property="og:image"
           content="https://ik.imagekit.io/t9vnjnjlba/Avatar.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1674086199069"
         />
+        <meta name="google-site-verification" content="54b13YK2OKvITnZrWju2OdiHdXletfIMdYXHY8egh8g" />
       </Head>
       <header className="App-header">
         <JumbotronComponent />
