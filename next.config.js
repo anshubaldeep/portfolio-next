@@ -30,7 +30,7 @@ const securityHeaders = [
   },
   {
     key: 'Content-Security-Policy',
-    value: "default-src 'self' *.imagekit.io;",
+    value: "default-src 'self' *.imagekit.io 'unsafe-inline' 'unsafe-eval';",
   },
 ];
 
