@@ -25,7 +25,7 @@ const sections = [
     description: 'Code and develop solutions from scratch which are simple and effective',
     line: 'Things I develop',
     objects: 'Websites, Web Apps, Mobile apps',
-    tools: ['HTML', 'CSS', 'JavaScript', 'React', 'SASS/LESS', 'Bootstrap'],
+    tools: ['React', 'Next.js', 'React Native', 'JavaScript','HTML', 'CSS'],
     image: frontendImage,
     pos: 'middle',
   },

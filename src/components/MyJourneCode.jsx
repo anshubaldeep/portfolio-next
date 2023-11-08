@@ -66,7 +66,18 @@ function MyJourneyMobile() {
         <div className="dot">······</div>
         &#123;
         {' '}
-        <span className="string">'2020-now'</span>
+        <span className="string">'2021-now'</span>
+        {' '}
+        :
+        <span className="string"> 'Software Developer 2 at Spinny'</span>
+        {' '}
+        &#125;
+      </div>
+      <div data-line-nr="12" className="code-l">
+        <div className="dot">······</div>
+        &#123;
+        {' '}
+        <span className="string">'2020-2021'</span>
         {' '}
         :
         <span className="string"> 'Software Engineer at Newgen Software'</span>
@@ -172,7 +183,7 @@ function MyJourneyMobile() {
         <div className="methods">return</div>
         {' '}
         [
-        <span className="string">'HTML/CSS/JS', 'ReactJS', 'NodeJS', 'jQuery', 'Bootstrap/Material Design', 'Webpack/Gulp', 'SASS/Less', 'npm/yarn',  'GIT', 'Firebase,  'MySQL/NoSQL',  'Photoshop',  'UX/UI',  'C++', 'Python', 'Blockchain', 'NextJS' </span>
+        <span className="string">'HTML/CSS/JS', 'ReactJS', 'Next.js', 'React Native', 'NodeJS', 'jQuery', 'tailwindcss', 'Bootstrap/Material Design/Ant Design', 'Vite', 'Webpack/Gulp', 'SASS/Less', 'npm/yarn',  'GIT', 'Firebase,  'MySQL/NoSQL', 'Python', 'Blockchain' </span>
         {' '}
         <span className="react-rotating-text-cursor">|</span>
         {' '}
